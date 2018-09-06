@@ -1,0 +1,42 @@
+#main5{
+	height: 1000px;
+	background-image: url(../img/main5/qu_03.png);
+	background-repeat:repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+}
+.subtitle5{
+	background-image: url(../img/main/title_sub_white.png);
+	width:267px;
+	height: 157px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 50px;
+
+}
+.subtitle5 .title{
+	padding-top: 10px;
+	font-size: 27px;
+	text-align: center;
+	color: white;
+}
+.subtitle5 .abstract{
+	font-size:10px;
+	color:white;
+	text-align: center;
+	margin-top: 40px ;
+}
+.imgBox{
+	padding:25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height:270px;	
+}
+.imgBox .imgCell{
+	float: left;
+	width: 20%;
+	margin-left: 50px;
+}

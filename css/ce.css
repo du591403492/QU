@@ -1,0 +1,87 @@
+.tel-kf-share-top{
+	position: fixed;
+	top: 450px;
+	right: 0;
+	z-index: 9999;
+	display: none;
+}
+
+.tel-kf-share-top ul li {
+  margin-top: 1px;
+  height: 50px;
+  width: 50px;
+}
+.tel-kf-share-top ul li .item-wrap {
+  display: block;
+  width: 150px;
+  height: 50px;
+  position: relative;
+}
+.tel-kf-share-top ul li .item-wrap .text {
+  display: inline-block;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ff7852;
+  color: #ffffff;
+  vertical-align: middle;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  z-index: 9;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+
+}
+.tel-kf-share-top ul li .item-wrap .icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #848484;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);  
+}
+.tel-kf-share-top ul .current .item-wrap .icon {
+  background-color: #ff7852;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 122, ../sass/foot.scss */
+.tel-kf-share-top ul .current .item-wrap .text {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.tel-kf-share-top ul .top span {
+  background: url(../img/ce/qu_06.png) no-repeat center #848484;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  float: right;
+  cursor: pointer;
+}
+.tel-kf-share-top ul .top span:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 18, ../sass/base.scss */
+.clearfix {
+  zoom: 1;
+}

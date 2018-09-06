@@ -1,0 +1,115 @@
+
+#main4{
+
+	height: 1000px;
+	background-image: url(../img/main4/qu_02.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+	background-size:  100% 100%;
+}
+.subtitle4{
+
+	padding: 50px;
+	background-image: url(../img/main/title_sub.png);
+	background-position: center center;
+	width:267px;
+	height: 157px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+.subtitle4 .title{
+	margin-top:30px;
+	letter-spacing: 2px;
+	font-size: 27px;
+	text-align: center;
+	color: #fc2e05;
+}
+.subtitle4 .abstract{
+	font-size:10px;
+	color:#a9a8a8;
+	text-align: center;
+	margin-top: 40px ;
+}
+
+.map{
+	background-image: url(../img/main4/test3.png);
+	width: 700px;
+	height: 463px;
+	margin-top: 100px;
+	margin-left: 35vw;
+	background-repeat: no-repeat;
+}
+.map .part{
+	height: 700px;
+	width: 463px;
+	position: absolute;
+}
+.map .btnPart{
+	position: absolute;
+}
+.map .btnGen{
+	width: 15px;
+	height: 15px;
+	border-radius: 25px; 
+	box-shadow: 5px 5px 5px #888888; 
+	
+}
+
+.map .gren{
+	background-image: url(../img/focus/gren.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 328px;
+	height: 192px;
+	margin-left:-280px;
+	margin-top: 25px;
+	position:absolute; 
+
+}
+.map .blue{
+	background-image: url(../img/focus/blue.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 328px;
+	height: 192px;
+	margin-left:-280px;
+	margin-top: 230px;
+	position:absolute; 
+}
+.map .pur{
+	background-image: url(../img/focus/purple.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 266px;
+	height: 189px;
+	margin-left: 510px;
+	margin-top: -70px;
+	position:absolute; 
+}
+.map .yel{
+	background-image: url(../img/focus/yellow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 328px;
+	height: 192px;
+	margin-left: 560px;
+	margin-top: 110px;
+	position:absolute; 
+}
+
+.map .red{
+	background-image: url(../img/focus/red.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	width: 328px;
+	height: 192px;
+	margin-left: 450px;
+	margin-top: 265px;
+	position:absolute; 
+}

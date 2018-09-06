@@ -1,0 +1,116 @@
+.subtitle2{
+	margin-top: 50px;
+	padding: 50px;
+	background-image: url(../img/main/title_sub.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:267px;
+	height: 96px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.subtitle2 .title{
+	font-size: 27px;
+	text-align: center;
+	color: #fc2e05;
+}
+.subtitle2 .abstract{
+	font-size:10px;
+	color:#a9a8a8;
+	text-align: center;
+	margin-top: 40px ;
+}
+.core{
+
+	height: 754px;
+	background-color:white
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.coreBox{
+	background-image: url(../img/main/com.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 700px;
+}
+.core .coreBtn{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.core .core1{
+	background-image: url(../img/main/1.png);
+	width: 70px;
+	height: 70px;
+	margin-left: 900px;
+	margin-right: auto;
+	margin-top:165px;
+}
+
+.core .core2{
+	background-image: url(../img/main/2.png);
+	width: 70px;
+	height: 70px;
+	float:left;
+	margin-left: 716px;
+	margin-top: 0px;
+}
+.core .core3{
+	background-image: url(../img/main/3.png);
+	width: 70px;
+	height: 70px;
+	float:right;
+	margin-right: 750px;
+	margin-top:0px;
+}
+.core .core4{
+	background-image: url(../img/main/4.png);
+	width: 70px;
+	height: 70px;
+	float:left;
+	margin-left: 650px;
+	margin-top: 90px;
+	background-repeat:no-repeat;
+}
+.core .core5{
+	background-image: url(../img/main/5.png);
+	width: 70px;
+	height: 70px;
+	float:right;
+	margin-right: 680px;
+	margin-top: 90px;
+}
+.coreSub{
+	position: absolute;
+	width: 80%;
+	height: 583px;
+	margin-left: 380px;
+}
+
+.coretext{
+	width:389px;
+	height:100px;
+	position: absolute;
+
+
+}
+.coretext .coretextTitle{
+	font-size: 16px;
+	line-height: 2em;
+	font-weight: bold;
+}
+.coretext .coretextSub{
+	font-size:14px;
+	background-color: #f6f5f5;
+	color:gray;
+	border-style: solid;
+	border-width: thin;
+	padding: 10px;
+	
+}

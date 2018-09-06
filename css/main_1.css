@@ -1,0 +1,74 @@
+#main{
+	background-color: #f6f5f5;
+	height: 350px;
+	font-family: "微软雅黑";
+}
+
+.subtitle{
+	margin-top: 50px;
+	background-image: url(../img/main/title_sub.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width:267px;
+	height: 96px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subtitle .title{
+	font-size: 27px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #fc2e05;
+
+}
+.subtitle .abstract{
+	font-size:13px;
+	color:#a9a8a8;
+	text-align: center;
+	margin-top: 40px ;
+}
+.mainBox{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text{
+	margin-top: 50px;
+	font-size: 15px;
+	line-height: 2em;
+	width: 800px;
+}
+.text>.fontset{
+	text-indent: 2em;
+}
+.imgsay{
+	height: 370.8px;
+	width: 424.8px;
+	background-image: url(../img/main/qu_23.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% 100%;
+	float: right;
+	margin-top: -250px;
+/*第四块*/
+}
+.imgsay .sub{
+	width: 472px;
+	height: 200px;
+}
+.imgsay .sub .text3{
+	color: white;
+	font-size: 12px;
+	width:120px;
+	margin-left: 180px;
+	margin-top: 120px;
+	
+}
+.imgsay .sub .text4{
+	color: white;
+	font-size: 12px;
+	width:120px;
+	float: left;
+	margin-left: 80px;
+}
